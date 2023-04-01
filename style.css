@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
+
+@media(max-width: 1024px) {
+    
+    header{
+
+        width: 100%;
+    
+       
+    }
+    
+    nav{
+        padding: 0%;
+    }
+    .cabecalho{
+        padding: 0%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 15px;
+    }
+    li {
+        list-style: none;
+        font-family: 'Russo One', sans-serif;
+        font-size: 0.9rem;
+        text-decoration: none;
+        border-style: double;
+        border-color:#09ca7a;
+        display: flex;
+        justify-content: center;
+       
+    }
+    .item-nav{
+        color: #09ca7a;
+        text-decoration: none;
+        padding: 15px;
+    
+    }
+  
+    body {
+        margin: 5%;
+        background-color: #121111;
+        box-sizing: border-box;
+    }
+
+    article {
+        margin-top: 20%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: #333;
+    }
+    
+    img {
+        box-sizing: border-box;
+    }
+
+    .texto{
+        margin-top: 10%;
+        text-align: justify;
+        justify-content: center;
+        color: rgb(217, 230, 232);
+        font-family: 'Roboto Mono', monospace;
+        
+    }
+    
+    .nome{
+        font-family: 'Roboto', sans-serif;
+        color: #09ca7a;
+        font-size: 1.5rem; 
+        text-align: center;
+    }
+
+    .cargo{
+        color: #09ca7a;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.1rem;
+        text-align: center;
+       }
+
+    .ilustracao{
+        width: 40%;
+        border-radius: 5px;
+        border-right: double;
+        border-top: double;
+        border-color:#09ca7a;
+    }
+    .texto_acesse{
+        color: #09ca7a;
+        font-size: 1.1rem;
+        font-family: 'Russo One', sans-serif;
+    }
+    footer{
+        margin-top: 15%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 2%;
+        background-color:#1f2221 ;
+        color:  rgb(148, 142, 142);
+    }
+    
+    a{
+        padding: 15px;
+    }
+}
+
+
+
+@media (min-width:1024px) {
+    header{
+
+        width: 100%;
+        padding: 2%;
+        background-color:#1f2221 ;
+    }
+    
+    body {
+    
+        background-color: #121111;
+        box-sizing: border-box;
+    }
+    
+    li {
+        list-style: none;
+        font-family: 'Russo One', sans-serif;
+        font-size: 0.9rem;
+        text-decoration: none;
+    }
+    
+    .item-nav:hover{
+        background-color:#09ca7a70;
+        border-radius: 8px;
+       
+    }
+    .cabecalho{
+        display: flex;
+        justify-content: center;
+    
+    }
+    
+    .item-nav{
+        color: #09ca7a;
+        text-decoration: none;
+        padding: 15px;
+    
+    }
+    
+    article {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        padding: 0% 10%;
+        height: 100vh;
+        background-color: #121111;
+        color: #333;
+    }
+    
+    main{
+        width: 50%;
+    }
+    
+    .texto{
+        color: rgb(217, 230, 232);
+        font-family: 'Roboto Mono', monospace;
+        text-align: justify;
+    }
+    
+    .nome{
+        font-family: 'Roboto', sans-serif;
+        color: #09ca7a;
+        font-size: 1.5rem; 
+    }
+    
+    .cargo{
+        color: #09ca7a;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.1rem;
+       }
+    
+    .texto_acesse{
+        color: #09ca7a;
+        font-size: 1.1rem;
+        font-family: 'Russo One', sans-serif;
+    }
+    
+    img {
+        box-sizing: border-box;
+    }
+    
+    .retrato{
+        display: flex;
+        align-items: center;
+        justify-content: space-around
+    }
+    
+    .ilustracao{
+        width: 30%;
+        padding: 5px;
+        border-radius: 50px;
+        margin-left: 80px;
+        border-style: double;
+        border-color:#09ca7a;
+    }
+    
+    .me {
+        width: 30%;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        border-radius: 150px;
+    }
+    
+    .links{
+        display: flex;
+        align-items:center; 
+        justify-content: center;
+        gap: 50px;
+        margin-top: 30px; 
+    }
+    
+    .sociais {
+        color: #09ca7a;
+        text-align: center;
+        text-decoration: none;
+        font-size: 1.5rem;
+        font-family: 'Russo One', sans-serif;
+        margin-left: 10px;
+    }
+    
+    footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 2%;
+        background-color:#1f2221 ;
+        color:  rgb(148, 142, 142);
+    }
+    
+    a{
+        padding: 2%;
+    }
+    
+    a:hover{
+        background-color:#09ca7a70;
+        border-radius: 8px;
+    }
+    
+    
+}
